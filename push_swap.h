@@ -13,6 +13,8 @@
 #ifndef PUSH_SWAP_H
 # define PUSH_SWAP_H
 
+# include "libft.h"
+
 typedef enum e_strategy
 {
     SIMPLE,
@@ -35,7 +37,5 @@ typedef struct s_options
     int         start;
 }   t_options;
 
-int ft_strcmp(const char *s1, const char *s2);
-void	ft_putstr(char *str);
 
 #endif
